@@ -6,17 +6,6 @@
     text-align: center;
 }
 
-.home.tile {
-    background: #000;
-    width: 160px;
-    height: 240px;
-}
-
-a .home.tile {
-    color: #fff;
-    text-transform: uppercase;
-}
-
 .tile img {
     width:80%;
     height: auto;
@@ -24,21 +13,6 @@ a .home.tile {
 
 .tile h4 {
     margin: 0;
-}
-
-.flex-grid {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.flex-grid .col {
-    flex: 1;
-}
-
-@media (max-width: 400px) {
-    .flex-grid {
-        display: block;
-    }
 }
 
 @media (max-width:992px) {
@@ -50,5 +24,11 @@ a .home.tile {
 @media (max-width:640px) {
     .col {
         flex-basis: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .flex-grid {
+        display: block;
     }
 }

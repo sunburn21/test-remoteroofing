@@ -6,6 +6,8 @@ import appleAppStore from '../../assets/app-store.svg';
 import playStore from '../../assets/play-store.svg';
 import windowsStore from '../../assets/windows-store.svg';
 
+import './index.css'
+
 
 export default ()=>{
     return(
