@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import ItemList from '../itemslist';
 import {getItems} from '../../api/items';
 
 class Items extends Component{
@@ -13,14 +14,12 @@ class Items extends Component{
         this.updatingState(data);
     }
     updatingState = async (data)=>{
-        // const newData = data.filter((e,i)=>(this.props.type===e.programType && e.releaseYear>=2010 && i<21));
-        // await this.setState({items:newData},()=>{
-        //     console.log(this.state);
-        // });
-        const newData = data.filter((e)=>((this.props.type===e.programType && e.releaseYear>=2010))).sort((a,b)=>{
+        const newData = data.filter((e,i)=>((this.props.type===e.programType 
+            && e.releaseYear>=2010 
+            ))).sort((a,b)=>{
             if(a.title>b.title) return 1;
             return -1;
-        });
+        }).slice(0,21);
         this.setState({items:newData},()=>{
             console.log(this.state);
         })
@@ -28,7 +27,7 @@ class Items extends Component{
     render(){
         return(
             <div>
-                <h1>Items: {this.props.type}</h1>
+                <ItemList items={this.state.items}/>
             </div>
         )
     }
