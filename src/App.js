@@ -18,10 +18,12 @@ class App extends Component{
       <Router>
         <Header/>
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/series' exact component={Series} />
-          <Route path='/movies' exact component={Movies} />
-          <Route component={Error}/>
+          <div className='content'>
+            <Route path='/' exact component={Home} />
+            <Route path='/series' exact component={Series} />
+            <Route path='/movies' exact component={Movies} />
+            {/* <Route component={Error}/> */}
+          </div>
         </Switch>
         <Footer/>
       </Router>
