@@ -3,6 +3,6 @@ import Items from '../items';
 
 export default ()=>{
     return(
-        <Items type='movies'/>
+        <Items type='movie'/>
     )
 }
