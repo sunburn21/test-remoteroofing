@@ -1,7 +1,8 @@
 import React from 'react';
+import Items from '../items';
 
 export default ()=>{
     return(
-        <h1>Series</h1>
+        <Items type='series'/>
     )
 }

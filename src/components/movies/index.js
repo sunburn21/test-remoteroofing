@@ -1,7 +1,8 @@
 import React from 'react';
+import Items from '../items';
 
 export default ()=>{
     return(
-        <h1>Movies</h1>
+        <Items type='movies'/>
     )
 }
