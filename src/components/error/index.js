@@ -3,6 +3,6 @@ import React from 'react';
 
 export default ()=>{
     return(
-        <h1>Error</h1>
-    )
+         <h2>Oops, something went wrong...</h2>
+        )
 }
