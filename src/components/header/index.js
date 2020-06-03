@@ -8,7 +8,6 @@ export default ()=>{
         <div>
             <div className="header flex-grid">
                 <h1 className="col">DEMO Streaming</h1>
-                <div className="col"></div>
                 <div className="col">
                     <a href="#">Log in</a>
                     <button>Start your free trial</button>

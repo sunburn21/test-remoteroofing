@@ -8,7 +8,7 @@
 }
 
 .header a {
-    padding: 12px;
+    padding: 12px;  
 }
 
 .header button {
@@ -37,9 +37,10 @@
     justify-content: space-between;
 }
 
-/* .flex-grid .col {
-    flex: 1;
-} */
+.flex-grid .col {
+    display: flex;
+    justify-content: space-around;
+}
 @media (max-width: 400px) {
     .flex-grid {
         display: block;
