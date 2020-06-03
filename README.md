@@ -6,10 +6,6 @@ A live demo of this project is deployed [here](https://sharp-bhaskara-303ce3.net
 
 You must have [Node.js](https://nodejs.org/) version 10.x installed in order to run this.
 
-## Available Scripts
-
-In the project directory, you can run:
-
 #### For node version
 
 ```sh
