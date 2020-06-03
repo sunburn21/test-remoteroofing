@@ -21,7 +21,7 @@ export default ()=>{
                 <li><a href="#">Manage Account</a></li>
             </ul>
             
-            <p className="copyright">Copyright &copy; 2016 DEMO Streaming. All Rights Reserved.</p>
+            <p className="copyright">Copyright &copy; 2020 DEMO Streaming. All Rights Reserved.</p>
             
             <div className="flex-grid">
                 <div className="col social">
