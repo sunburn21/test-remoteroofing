@@ -32,15 +32,17 @@ a .home.tile {
     margin: 0;
 }
 
-.flex-grid {
+.home-content {
     display: flex;
     flex-flow: row wrap;
 }
-
+/* 
 .flex-grid .col {
     flex: 1;
+} */
+.home-tile{
+    margin-left: 24px;
 }
-
 @media (max-width: 400px) {
     .flex-grid {
         display: block;

@@ -34,11 +34,12 @@
 .flex-grid {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-.flex-grid .col {
+/* .flex-grid .col {
     flex: 1;
-}
+} */
 @media (max-width: 400px) {
     .flex-grid {
         display: block;
