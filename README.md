@@ -39,5 +39,4 @@ $ npm start
 ├── gitignore
 ├── package.json
 └── README.md
-
 ```
