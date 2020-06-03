@@ -27,6 +27,8 @@ $ npm start
 
 ```
 ├── public
+|   ├── manifest.json
+|   └── index.html
 ├── src
 |   ├── api
 |   |   └── items.js
