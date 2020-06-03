@@ -23,6 +23,8 @@ $ npm install
 $ npm start
 
 ```
+The project can then be viewed at http://localhost:3000/
+
 ### Project Structure
 
 ```
@@ -73,3 +75,5 @@ $ npm start
 ├── package.json
 └── README.md
 ```
+
+### 
