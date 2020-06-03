@@ -35,7 +35,7 @@ export default ()=>{
                     <ul>
                         <li><img src={appleAppStore} alt="app store"></img></li>
                         <li><img src={playStore} alt="play store"></img></li>
-                        <li><img src={windowsStore} alt="windows store"></img></li>
+                        <li><img src={windowsStore} className='microsoft-store' alt="windows store"></img></li>
                     </ul>
                 </div>
             </div>
