@@ -1,4 +1,7 @@
+// importing libraries
 import React from 'react';
+
+// importing the paths of all required images and logos
 import facebook from '../../assets/facebook-white.svg';
 import twitter from '../../assets/twitter-white.svg';
 import instagram from '../../assets/instagram-white.svg';
@@ -6,21 +9,22 @@ import appleAppStore from '../../assets/app-store.svg';
 import playStore from '../../assets/play-store.svg';
 import windowsStore from '../../assets/windows-store.svg';
 
+// importing css 
 import './index.css'
 
 
+// implemented footer
 export default ()=>{
     return(
         <div className="footer">
             <ul className="footer-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Collection Statement</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Manage Account</a></li>
+                <li>Home</li>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Collection Statement</li>
+                <li>Help</li>
+                <li>Manage Account</li>
             </ul>
-            
             <p className="copyright">Copyright &copy; 2020 DEMO Streaming. All Rights Reserved.</p>
             
             <div className="flex-grid">

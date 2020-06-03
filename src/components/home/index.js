@@ -1,8 +1,11 @@
+// importing libraries
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+// importing css 
 import './index.css';
 
+//implemented home page component
 export default ()=>{
     return(
         <div className="home-content">

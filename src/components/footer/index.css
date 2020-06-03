@@ -19,6 +19,7 @@
 }
 
 .footer li {
+    cursor: pointer;
     list-style: none;
     display: inline-block;    
     color: #fff;    

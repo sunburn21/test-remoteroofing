@@ -1,10 +1,12 @@
+// importing libraries and components
 import React,{Component} from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
-import './App.css';
+
+// importing required components
 import Home from './components/home';
 import Series from './components/series';
 import Movies from './components/movies';
@@ -12,9 +14,15 @@ import Error from './components/error';
 import Header from './components/header';
 import Footer from './components/footer';
 
+// importing the css 
+import './App.css';
+
+
+// The main App component
 class App extends Component{
   render(){
     return (
+      // Implemented React Router
       <Router>
         <Header/>
         <div className='content'>
