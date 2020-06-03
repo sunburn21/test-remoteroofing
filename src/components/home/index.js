@@ -9,17 +9,17 @@ import './index.css';
 export default ()=>{
     return(
         <div className="home-content">
-        <div className="home-tile">
+        <div className="home-card">
             <Link to="/series">
-                <div className="home tile"> 
+                <div className="home card"> 
                 <div>Series</div>                                            
                 </div>
             </Link>                    
             <p>Popular series</p>
         </div> 
-        <div className="home-tile">                
+        <div className="home-card">                
             <Link to="/movies">
-                <div className="home tile">                    
+                <div className="home card">                    
                     <div>Movies</div>                             
                 </div>
             </Link>                                    

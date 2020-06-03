@@ -25,7 +25,7 @@ class App extends Component{
       // Implemented React Router
       <Router>
         <Header/>
-        <div className='content'>
+        <div className='main-content'>
         <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/series' exact component={Series} />

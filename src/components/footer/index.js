@@ -27,7 +27,7 @@ export default ()=>{
             </ul>
             <p className="copyright">Copyright &copy; 2020 DEMO Streaming. All Rights Reserved.</p>
             
-            <div className="flex-grid">
+            <div className="wrapper">
                 <div className="col social">
                     <ul>
                         <li><img src={facebook} alt="facebook"></img></li>

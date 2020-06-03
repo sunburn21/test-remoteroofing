@@ -12,7 +12,7 @@ export default (props)=>{
         {props.items.map((e,i) => {
         return (
             <div className="col" key={i}>
-                <div className="tile">
+                <div className="card">
                     <img alt="Item" src={e.images['Poster Art'].url} />
                     <h4>{e.title}</h4>
                 </div>

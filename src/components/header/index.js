@@ -10,7 +10,7 @@ import './index.css';
 export default ()=>{
     return(
         <div>
-            <div className="header flex-grid">
+            <div className="header wrapper">
                 <h1 className="col">DEMO Streaming</h1>
                 <div className="col">
                     <a>Login</a>

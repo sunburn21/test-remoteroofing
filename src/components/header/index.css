@@ -31,18 +31,18 @@
     margin: 0;
 }
 
-.flex-grid {
+.wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
-.flex-grid .col {
+.wrapper .col {
     display: flex;
     justify-content: space-around;
 }
 @media (max-width: 400px) {
-    .flex-grid {
+    .wrapper {
         display: block;
     }
 }
