@@ -6,18 +6,18 @@ import {Link} from 'react-router-dom'
 import './index.css';
 
 
-// implemented header component 
+// implemented navbar component 
 export default ()=>{
     return(
         <div>
-            <div className="header wrapper">
+            <div className="navbar wrapper">
                 <h1 className="col">DEMO Streaming</h1>
                 <div className="col">
                     <a>Login</a>
                     <button>Start your free trial</button>
                 </div>
             </div>
-            <div className="sub-header">
+            <div className="sub-navbar">
                 <h2><Link to='/'>Popular titles</Link></h2>
             </div>
         </div>
