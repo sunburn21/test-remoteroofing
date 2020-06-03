@@ -10,7 +10,7 @@ export default ()=>{
         <div className="col">
             <Link to="/series">
                 <div className="home tile"> 
-                <h3>Series</h3>                                            
+                <div>Series</div>                                            
                 </div>
             </Link>                    
             <p>Popular series</p>
@@ -18,7 +18,7 @@ export default ()=>{
         <div className="col">                
             <Link to="/movies">
                 <div className="home tile">                    
-                    <h3>Movies</h3>                             
+                    <div>Movies</div>                             
                 </div>
             </Link>                                    
             <p>Popular movies</p>
