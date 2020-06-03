@@ -29,8 +29,39 @@ $ npm start
 ├── public
 ├── src
 |   ├── api
+|   |   └── items.js
 |   ├── assets
-│   ├── components
+|   |   ├── app-store.svg
+|   |   ├── facebook-white.svg
+|   |   ├── instagram-white.svg
+|   |   ├── placeholder.png
+|   |   ├── play-store.svg
+|   |   ├── twitter-white.svg
+|   |   └── windows-store.svg
+│   ├── components
+|   |   ├── error
+|   |   |   └── index.js
+|   |   ├── loading
+|   |   |   └── index.js
+|   |   ├── movies
+|   |   |   └── index.js
+|   |   ├── series
+|   |   |   └── index.js
+|   |   ├── footer
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   ├── header
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   ├── home
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   ├── items
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   └── itemslist
+|   |       ├── index.js
+|   |       └── index.css       
 │   ├── App.js
 |   ├── App.css
 |   ├── index.js
