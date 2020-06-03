@@ -1,5 +1,5 @@
 # Remote Roofing- Frontend Development Challenge
-This project is solution of the Frontend Internship: Preliminary Test by Remote Roofing
+This project is solution of the Frontend Internship: Preliminary Test by Remote Roofing.
 A live demo of this project is deployed [here](https://sharp-bhaskara-303ce3.netlify.app/).
 
 ### Installation
