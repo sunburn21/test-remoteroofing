@@ -1,6 +1,5 @@
 # Remote Roofing- Frontend Development Challenge
-This project is solution of the Frontend Internship: Preliminary Test by Remote Roofing.
-A live demo of this project is deployed [here](https://sharp-bhaskara-303ce3.netlify.app/).
+This project is solution of the <b>Frontend Internship: Preliminary Test</b> by Remote Roofing.
 
 ### Live Demo
 
@@ -27,16 +26,16 @@ $ npm start
 ### Project Structure
 
 ```
-├── frontend
-│   ├── dist
-│   │   └── index.html
-│   ├── index.js
-│   ├── package.json
-│   ├── src
-│   │   ├── components
-│   │   ├── index.js
-│   │   └── pages
-│   └── webpack.config.js
+├── public
+├── src
+|   ├── api
+|   ├── assets
+│   ├── components
+│   ├── App.js
+|   ├── App.css
+|   ├── index.js
+|   └── index.css
+├── package.json
 ├── gitignore
 ├── package.json
 └── README.md
