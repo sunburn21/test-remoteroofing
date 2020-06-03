@@ -8,8 +8,12 @@
 
 .home.tile {
     background: #000;
+    background-image: url('../../assets/placeholder.png');
     width: 160px;
     height: 240px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
 }
 
 a .home.tile {

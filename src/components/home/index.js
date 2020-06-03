@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import clapper from '../../assets/placeholder.png';
 
 import './index.css';
 
@@ -8,8 +9,8 @@ export default ()=>{
         <div className="flex-grid">
         <div className="col">
             <Link to="/series">
-                <div className="home tile">                    
-                    <h3>Series</h3>                                            
+                <div className="home tile"> 
+                <h3>Series</h3>                                            
                 </div>
             </Link>                    
             <p>Popular series</p>
