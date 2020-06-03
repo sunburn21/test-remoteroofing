@@ -1,8 +1,9 @@
 import React from 'react';
+import './index.css';
 
 export default (props)=>{
     return(
-        <div className="flex-grid">
+        <div className="items-list">
         {props.items.map((e,i) => {
         return (
             <div className="col" key={i}>
