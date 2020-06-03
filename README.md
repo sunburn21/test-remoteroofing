@@ -1,68 +1,94 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Remote Roofing- Frontend Development Challenge
+This project is solution of the <b>Frontend Internship: Preliminary Test</b> by Remote Roofing.
 
-## Available Scripts
+### Live Demo
 
-In the project directory, you can run:
+A live demo of this project is deployed [here](https://sharp-bhaskara-303ce3.netlify.app/).
 
-### `npm start`
+### Libraries Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <b>React-Router: </b>
+    For implementing dynamic, client-side routing allows us to build a single-page web application with navigation without       the page refreshing as the user navigates.
+    
+  <b>Axios: </b>
+    For making http get request to fetch the data.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Installation
 
-### `npm test`
+You must have [Node.js](https://nodejs.org/) version 10.x installed in order to run this.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### For node version
 
-### `npm run build`
+```sh
+node -v
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install the dependencies and devDependencies and start the server.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```sh
+$ cd test-remoteroofing
+$ npm install
+$ npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+The project can then be viewed at http://localhost:3000/
 
-### `npm run eject`
+### Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+├── public
+|   ├── manifest.json
+|   └── index.html
+├── src
+|   ├── api
+|   |   └── items.js
+|   ├── assets
+|   |   ├── app-store.svg
+|   |   ├── facebook-white.svg
+|   |   ├── instagram-white.svg
+|   |   ├── placeholder.png
+|   |   ├── play-store.svg
+|   |   ├── twitter-white.svg
+|   |   └── windows-store.svg
+│   ├── components
+|   |   ├── error
+|   |   |   └── index.js
+|   |   ├── loading
+|   |   |   └── index.js
+|   |   ├── movies
+|   |   |   └── index.js
+|   |   ├── series
+|   |   |   └── index.js
+|   |   ├── footer
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   ├── header
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   ├── home
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   ├── items
+|   |   |   ├── index.js
+|   |   |   └── index.css
+|   |   └── itemslist
+|   |       ├── index.js
+|   |       └── index.css       
+│   ├── App.js
+|   ├── App.css
+|   ├── index.js
+|   └── index.css
+├── package.json
+├── gitignore
+├── package.json
+└── README.md
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Improvements / Future scope / Thing's I would have done if alotted more time
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Filters based on genre,year,rating can be added to sort movies/series.
+2. Search feature can be implemented to perform search among the movies/series.
+3. State manangement can be done using Redux, that would help in making the components dumb i.e components would have just recieve props and render the data without making any api call from within the component.But as the application is quite simple I thought it is better to not over complicate it.
+4. Could have use frontend libraries like MaterialUI to make the components look more premium. But again as it is a small App I preferred to implement everything from the basic.
+5. Stying libraries like Styled components can also be used to make the code more component friendly.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
